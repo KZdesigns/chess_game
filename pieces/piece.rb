@@ -1,12 +1,8 @@
-
-
 class Piece
     attr_accessor :color, :board, :pos
 
     def initialize(color, board, pos)
-        @color = color
-        @board = board
-        @pos = pos
+       @color, @board, @pos = color, board, pos
     end
 
     def to_s

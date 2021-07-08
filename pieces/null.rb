@@ -6,7 +6,7 @@ class NullPiece < Piece
     attr_accessor :color, :board, :pos
     
     def initialize
-        
+        @color = :none
     end
 
     def moves
